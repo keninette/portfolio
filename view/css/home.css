@@ -1,0 +1,79 @@
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#content div:not(#optContact) img {
+    width: 200px;
+}
+
+#content div {
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+}
+
+h2{
+    color: #1a8afd;
+}
+
+#content div:not(#optContact) {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/backgroundDiv.png);
+}
+
+#optProj, #optCv{
+    margin-top: 50px;
+}
+
+#optProj,#optMe, #optContact {
+    margin-left: 150px;
+}
+
+#optContact, #optVeille{
+    margin-top: 5px;
+}
+
+#optVeille img {
+    padding-top: 20px;
+}
+
+#optContact{
+    width: 605px;
+    margin-bottom: 10px;
+    text-align: left !important;
+    background-color: #1a8afd;
+}
+
+#optContact h2 {
+    display: inline-block;
+    margin-left: 275px;
+    color: black !important;
+}
+
+#formContact input, #formContact textarea {
+    display: block;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#formContact input[type=email] {
+    width: 400px;
+}
+
+#formContact textarea, #formContact input[type=text] {
+    width: 585px;
+}
+
+#formContact input[type=submit]{
+    margin-left: 522px !important;
+}
+
+#contactArrow{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 220px;
+    cursor: pointer;
+}
