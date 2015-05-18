@@ -8,10 +8,10 @@
 function displayProjectInfos(psHtmlCode){
     var oDivProjectsOver = $('#projectsOver'); 
 	
-	oDivProjectsOver.show();
 	oDivProjectsOver.html(psHtmlCode);
-	if (oDivProjectsOver.height() < $('#projects').height()) { oDivProjectsOver.css('height', $('#projects').height()) };
-	oDivProjectsOver.animate({"marginLeft":"0"});
+	//if (oDivProjectsOver.height() < $('#projects').height()) { oDivProjectsOver.css('height', $('#projects').height()) };
+	oDivProjectsOver.animate({marginTop:"26%",marginLeft:"-0.96%"});
+        oDivProjectsOver.show(300);
 }
 
 /* 
@@ -22,14 +22,13 @@ function displayProjectInfos(psHtmlCode){
  *	-> poDivClickedOn : DOM Object : the div (project) that's been clicked on
  */ 
 function getProjectInfos (poDivClickedOn){
-    var oDivProjectsOver = document.getElementById("projetsOver");
+    //var oDivProjectsOver = document.getElementById("projectsOver");
     var nIdProject = poDivClickedOn.getAttribute('meta');
-    
-    console.log(oDivProjectsOver);
-    if (oDivProjectsOver !== null){
+
+    /*if (oDivProjectsOver !== null){
         var nId = oDivProjectsOver.firstElementChild.getAttribute("meta");
         console.log("nId = " +nId);
-    }
+    }*/
     
     if (nIdProject === '0') { return(''); }
     // define xhr object according to browser

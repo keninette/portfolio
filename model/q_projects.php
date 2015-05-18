@@ -22,13 +22,7 @@ function getProjectsList() {
         }
 
     // managing answers
-    while($lta_infos = $ls_res->fetch()) {
-        displayProjectsList($lta_infos['idProject'], strtoupper($lta_infos['name']), $lta_infos['imgUrl']);
-    }
-    // disconnection
-    $ls_res->closeCursor();
-    $DB = connectDB(true);
-    return(true);
+    return($ls_res->fetchAll());
 }
 
 

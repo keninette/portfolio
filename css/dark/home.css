@@ -1,0 +1,134 @@
+#container {
+    background-color: black;
+    font-family: 'visitor';
+    height: 53%;
+    margin-top: -10%;
+    margin-left: -0.85%;
+    position: absolute;
+    opacity: 0.75;
+    top: 50%
+}
+
+#content
+{
+    height: 100%;
+    margin-top: 23%;
+}
+
+footer 
+{
+    margin-top: 40%;
+}
+
+#optProj,
+#optCv,
+#optMe,
+#optVeille
+{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 0.1em;
+    display: inline-block;
+    font-size: 0.9em;
+    height: 20%;
+    opacity: 0.5;
+    position: absolute;
+    vertical-align: middle;
+    width: 25%;
+}
+
+#optCv:hover,
+#optProj:hover,
+#optVeille:hover,
+#optMe:hover
+{
+    opacity: 1;
+}
+
+#optCv div,
+#optProj div,
+#optVeille div,
+#optMe div
+{
+    display: inline-block;
+    
+}
+
+#optProj h2, 
+#optCv h2,
+#optVeille h2,
+#optMe h2
+{
+    display: inline-block;
+    margin-left: 30%;
+    width: 70%;
+}
+
+.homeBackground {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    margin-left: -100%;
+    position: absolute;
+    width: 30%;
+}
+
+/*******************************************************************************
+**************************** OPTION DIV CUSTOM**********************************
+*******************************************************************************/
+
+#optCv 
+{
+    margin-left: 25%;
+}
+
+#optCv .homeBackground
+{
+    background-image: url(../../images/home/file.gif);
+}
+
+#optProj .homeBackground
+{
+    background-image: url(../../images/home/projects.png);
+}
+
+#optMe .homeBackground
+{
+    background-image: url(../../images/home/me.png);
+}
+
+#optVeille .homeBackground
+{
+    background-image: url(../../images/home/veille.png);
+}
+
+#optMe
+{
+    margin-left: 50%;
+}
+
+#optVeille
+{
+    margin-left: 75%;
+}
+
+#optContact
+{
+    margin-top: 5%;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%!important;
+}
+
+#optContact:hover
+{
+    opacity: 1;
+}
+
+#optContact h2, #optContact img 
+{
+    display: inline-block;
+}
+
+
+

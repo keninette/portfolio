@@ -1,13 +1,17 @@
-<?php include('view/header.inc.php'); ?>
+<?php include('view/v_header.php'); ?>
 <div id="container">    
-    <div id="leftDiv">
-        <p id="pic"><img id="picImg" src="view/images/portrait.png" alt="Portrait" /></p>
+    <div id="leftDiv" class="hideDarkTheme">
+        <div id="pic"><div id="picImg"></div></div>
     </div>
     <div id="rightDiv">
-        <a href="index.php"><div id="banner">Delphine Gauthier - Portfolio</div></a>
+    <?php
+        $nav = isset($_REQUEST['nav']) ? (string) $_REQUEST['nav'] : 'home';
+        include('include/title.inc.php');
+    ?>
+        
         <div id="content">
-            <?php include('controller/nav.inc.php'); ?>
+            <?php include('include/content.inc.php'); ?>
         </div>
     </div>
 </div>    
-<?php include('view/footer.inc.php');
+<?php include('view/v_footer.php');

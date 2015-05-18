@@ -1,0 +1,131 @@
+#container {
+    background-color: black;
+    font-family: 'visitor';
+    height: 40%;
+    margin-top: -13%;
+    margin-left: -0.86%;
+    position: absolute;
+    opacity: 0.75;
+    top: 50%
+}
+
+#content
+{
+    height: 100%;
+    margin-top: 23%;
+}
+
+footer 
+{
+    display: none;
+}
+
+#projects {
+    background-color: black;
+    display: inline-block;
+    height: auto;
+    margin-left: -0.86%;
+    margin-top: 26%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+    position: absolute;
+    width: 101%;    
+    z-index: 0;
+}
+
+.oneProject {
+    color: black;
+    font-family: 'visitor';
+    display: inline-block;
+    padding-top: 1.5%;
+    width: 20%;
+    height:19em;
+    background-color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    box-shadow: 3px 3px 7px grey; 
+    cursor: pointer;
+}
+
+#img {
+    padding-top: 10px;
+    width: 210px;
+    height:240px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 3px 3px 7px white;
+}
+
+#description {
+    display: inline-block;
+    width: 570px;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+#description h2 {
+    display: inline;
+}
+
+#modules h4 {
+    margin-top: -10px;
+}
+
+#modules p {
+    margin-top: -20px;
+}
+
+#description span{
+    cursor: pointer;
+}
+
+.oneProject img, #img img :not(#imgEpingle) {
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1em;
+    width: 90%;
+    margin-top: 5px; 
+}
+
+#imgProjet{
+    position: relative;
+    z-index: 1;
+    margin-top: 0px !important;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 180px;
+    height: 180px;
+}
+
+#projectsOver {
+    font-family: 'calibri';
+    background-color: black;
+    opacity: 0.9;
+    width: 101%;
+    min-height: 800px;
+    z-index: 1;
+    width: 850px;
+    margin-top: -980px;
+    margin-left: 1000px;
+    display: none;
+    position: absolute;
+    padding-top: 60px;
+    padding-left : 20px;
+    padding-right : 10px;
+    padding-bottom: 20px;
+}
+
+td, th {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+    border-collapse: collapse !important;
+}
+
+

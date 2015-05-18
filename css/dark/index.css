@@ -1,0 +1,105 @@
+/* ========== main divs =========== */
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#backButton
+{
+    background-image: url(../../images/dark/back.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#backButton p
+{
+    margin-left: 2.5em;
+}
+
+body 
+{
+    background-color: black;
+    background-image: url(../../images/dark/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+
+#container 
+{
+    width: 101%;
+}
+
+.decoratedLink
+{
+    text-decoration: underline;
+}
+
+.hideDarkTheme
+{
+    display: none;
+}
+
+.normalText
+{
+    font-family: calibri, arial;
+    font-size: 1em;
+}
+
+#rightDiv 
+{
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+}
+
+@font-face 
+{
+    font-family: "visitor";
+    font-weight: bold;
+    src: url('../../font/visitor1.ttf');
+}
+
+footer 
+{
+    font-size: 0.5em!important;
+    height: 2%;
+    text-align: center;
+}
+
+/* ========== /main divs =========== */
+
+
+
+
+/* ========== right div =========== */
+#banner 
+{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+#banner .averageTitle 
+{
+    font-size: 4em;
+}
+
+#banner span 
+{
+    display : block;
+}
+
+#banner .bigTitle 
+{
+    font-size: 5.22em;
+    margin-top: -0.2em;
+}
+/* ========== /right div =========== */
+
