@@ -3,10 +3,11 @@
     font-family: 'visitor';
     height: 53%;
     margin-top: -10%;
-    margin-left: -0.85%;
+    margin-left: -0.5em;
     position: absolute;
     opacity: 0.75;
-    top: 50%
+    top: 50%;
+    width: 100%;
 }
 
 #content
@@ -17,7 +18,7 @@
 
 footer 
 {
-    margin-top: 40%;
+    color: black;
 }
 
 #optProj,
@@ -89,7 +90,7 @@ footer
 
 #optProj .homeBackground
 {
-    background-image: url(../../images/home/projects.png);
+    background-image: url(../../images/home/projects.PNG);
 }
 
 #optMe .homeBackground

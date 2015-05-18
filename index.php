@@ -8,10 +8,17 @@
         $nav = isset($_REQUEST['nav']) ? (string) $_REQUEST['nav'] : 'home';
         include('include/title.inc.php');
     ?>
-        
         <div id="content">
-            <?php include('include/content.inc.php'); ?>
+        <?php 
+            include('include/content.inc.php'); 
+            if ( !($theme === THEME_DARK && $nav === 'cv' ))
+            {
+        ?>
         </div>
     </div>
-</div>    
+</div>
+        <?php
+            }
+        ?>
+            
 <?php include('view/v_footer.php');

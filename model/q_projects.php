@@ -55,6 +55,7 @@ function getProjectFullInfo($pn_idProject){
     $DB = connectDB();
     if($DB != null){
         try {
+            $DB->exec('SET SESSION group_concat_max_len = 1000000;'); // Si on ne fait pas ça, le résultat de group_concat est tronqué
             $ls_res = $DB->query($ls_query);
         }
         catch (Exception $e){

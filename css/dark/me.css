@@ -1,9 +1,9 @@
 #container {
     background-color: black;
     font-family: 'visitor';
-    height: 105%;
+    height: 65%;
+    margin-left: -0.5em;
     margin-top: -15%;
-    margin-left: -0.85%;
     position: absolute;
     opacity: 0.75;
     top: 50%
@@ -12,12 +12,7 @@
 #content
 {
     height: 100%;
-    margin-top: 23%;
-}
-
-footer
-{
-    margin-top: 60%;
+    margin-top: 10%;
 }
 
 #presentation

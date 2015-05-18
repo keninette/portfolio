@@ -103,16 +103,16 @@ footer
     height: 180px;
 }
 
-#projectsOver {
+#projectsOver 
+{
     font-family: 'calibri';
     background-color: black;
-    opacity: 0.9;
-    width: 101%;
-    min-height: 800px;
+    opacity: 0.95;
+    width: 100%;
+    height: auto;
     z-index: 1;
-    width: 850px;
-    margin-top: -980px;
-    margin-left: 1000px;
+    margin-top: -200%;
+    margin-left: 300%;
     display: none;
     position: absolute;
     padding-top: 60px;
@@ -120,12 +120,17 @@ footer
     padding-right : 10px;
     padding-bottom: 20px;
 }
+/*
+table
+{
+    border-collapse: collapse;
+}
 
-td, th {
+td, th
+{
     border-style: solid;
     border-color: #ffffff;
-    border-width: 2px;
-    border-collapse: collapse !important;
-}
+    border-width: 2px;    
+}*/
 
 

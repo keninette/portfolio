@@ -2,11 +2,12 @@
     background-color: black;
     font-family: 'visitor';
     height: 53%;
+    margin-left: -0.5em;
     margin-top: -15%;
-    margin-left: -0.86%;
     position: absolute;
     opacity: 0.75;
-    top: 50%
+    top: 50%;
+    width: 100%;
 }
 
 #content
@@ -18,12 +19,12 @@
 #containerCv
 {
     background-color: black;
-    margin-left: -0.86%;
+    margin-left: -0.5em;
     margin-top: 30.8%;
     padding-bottom: 1.5%;
     padding-top: 1.5%;
     position: absolute;
-    width: 101%;
+    width: 100%;
     
 }
 
@@ -34,17 +35,16 @@
     margin: auto;
 }
 
-footer 
-{
-    display: none;
-}
-
 img:not(#picImg) {
     margin-left: 10px;
     margin-top: 10px;
     border-bottom-style: solid;
     border-color: #ffffff;
     width: 800px;
+}
+
+p{
+    margin-top: -1.5em;
 }
 
 

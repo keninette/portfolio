@@ -1,4 +1,4 @@
-<p>Si le CV ne s&#146;affiche pas, vous pouvez le t&eacute;l&eacute;charger en cliquant <a class="decoratedLink" href="docs/CV - Gauthier Delphine.pdf" />ici</a>.</p>
+<p>Si le CV ne s'affiche pas, vous pouvez le télécharger en cliquant <a class="decoratedLink" href="docs/CV_GauthierDelphine.pdf">ici</a>.</p>
 <?php
     if ($theme === THEME_DARK) { ?></div></div></div><?php }
 ?>
