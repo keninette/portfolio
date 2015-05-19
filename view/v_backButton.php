@@ -1,3 +1,3 @@
 <div id="backButton">
-    <a href="index.php?nav=home"><p>BACK</p></a>
+    <a href="index.php?nav=<?php echo $onSingleWatchPage ? 'watch' : 'home' ?>"><p>BACK</p></a>
 </div>

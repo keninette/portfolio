@@ -1,6 +1,7 @@
 <?php
 if ($theme == THEME_DARK) 
 {
+    $onSingleWatchPage = ((isset($_GET['action']) && $_GET['action'] === 'viewSingle') && $nav === 'watch');
     if ($nav !== 'home') { include('view/v_backButton.php'); }
     switch($nav)
     {
@@ -20,6 +21,12 @@ if ($theme == THEME_DARK)
         case 'projects':
         ?>
             <div id="banner"><span class="averageTitle">Mes projets</span></div>
+        <?php
+            break;
+        
+        case 'watch':
+        ?>
+            <div id="banner"><span class="averageTitle">Veille</span></div>
         <?php
             break;
         

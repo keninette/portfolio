@@ -10,7 +10,7 @@ function displayProjectInfos(psHtmlCode){
 	
 	oDivProjectsOver.html(psHtmlCode);
 	//if (oDivProjectsOver.height() < $('#projects').height()) { oDivProjectsOver.css('height', $('#projects').height()) };
-	oDivProjectsOver.animate({marginTop:"26%",marginLeft:"-0.96%"});
+	oDivProjectsOver.animate({marginTop:"25%",marginLeft:"-0.96%"});
         oDivProjectsOver.show(300);
 }
 

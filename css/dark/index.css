@@ -52,6 +52,11 @@ body
     font-size: 1em;
 }
 
+.normalText ul
+{
+    list-style-type: square!important;
+}
+
 #rightDiv 
 {
     display: inline-block;

@@ -12,6 +12,7 @@
     include('include/config.inc.php');
     include('include/globals.inc.php');
     include('include/tools.inc.php');
+    include('model/connectdb.php');
     
     $theme = isset($_REQUEST['theme']) ? $_REQUEST['theme'] : THEME_DARK;
     
@@ -29,8 +30,11 @@
     // special includes
     switch($ls_nav){
         case 'projects':
-            include('model/connectdb.php');
             include('model/q_projects.php');
+            break;
+        
+        case 'watch':
+            include('model/q_watch.php');
             break;
     }
 

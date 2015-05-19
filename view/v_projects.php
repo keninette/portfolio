@@ -1,3 +1,4 @@
+<p>Vous pouvez télécharger mon tableau de compétences <a class="decoratedLink" href="docs/skills.png">ici</a>.</p>
 <?php
     if ($theme === THEME_DARK) { ?></div></div></div><?php }
 ?>
